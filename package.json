@@ -1,0 +1,23 @@
+{
+  "name": "xml-viewer",
+  "version": "1.0.0",
+  "description": "XMLファイルのドラッグアンドドロッププレビューアプリ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "npx http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "xml",
+    "viewer",
+    "typescript",
+    "drag-and-drop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "http-server": "^14.1.1"
+  }
+}

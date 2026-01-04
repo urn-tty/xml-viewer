@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="cooking">
+    <title lang="ja">和食の基本</title>
+    <author>山田太郎</author>
+    <year>2023</year>
+    <price currency="JPY">2800</price>
+    <description>
+      日本料理の基礎から応用まで、丁寧に解説した一冊。
+      初心者にもわかりやすく、プロの技も学べます。
+    </description>
+  </book>
+  <book category="technology">
+    <title lang="en">Modern Web Development</title>
+    <author>John Smith</author>
+    <year>2024</year>
+    <price currency="USD">49.99</price>
+    <description>
+      Learn the latest web technologies including TypeScript, React, and Node.js.
+      Complete with practical examples and best practices.
+    </description>
+    <chapters>
+      <chapter number="1">Introduction to TypeScript</chapter>
+      <chapter number="2">Building with React</chapter>
+      <chapter number="3">Server-side Development</chapter>
+    </chapters>
+  </book>
+  <book category="fiction">
+    <title lang="ja">夏の物語</title>
+    <author>佐藤花子</author>
+    <year>2023</year>
+    <price currency="JPY">1500</price>
+    <description>
+      青春時代の淡い恋と友情を描いた感動作。
+    </description>
+  </book>
+  <!-- 将来追加予定の書籍 -->
+</bookstore>
+

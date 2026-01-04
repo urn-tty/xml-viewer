@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company name="株式会社サンプル">
+  <employees>
+    <employee id="E001" department="開発部">
+      <name>山田太郎</name>
+      <age>32</age>
+      <email>yamada@example.com</email>
+      <salary currency="JPY">450000</salary>
+      <skills>
+        <skill level="expert">JavaScript</skill>
+        <skill level="advanced">TypeScript</skill>
+        <skill level="intermediate">Python</skill>
+      </skills>
+    </employee>
+    <employee id="E002" department="営業部">
+      <name>佐藤花子</name>
+      <age>28</age>
+      <email>sato@example.com</email>
+      <salary currency="JPY">420000</salary>
+      <skills>
+        <skill level="expert">営業</skill>
+        <skill level="advanced">プレゼンテーション</skill>
+      </skills>
+    </employee>
+    <employee id="E003" department="開発部">
+      <name>鈴木一郎</name>
+      <age>35</age>
+      <email>suzuki@example.com</email>
+      <salary currency="JPY">500000</salary>
+      <skills>
+        <skill level="expert">Java</skill>
+        <skill level="expert">AWS</skill>
+        <skill level="advanced">Docker</skill>
+      </skills>
+    </employee>
+    <employee id="E004" department="人事部">
+      <name>田中美咲</name>
+      <age>30</age>
+      <email>tanaka@example.com</email>
+      <salary currency="JPY">400000</salary>
+      <skills>
+        <skill level="expert">採用</skill>
+        <skill level="advanced">労務管理</skill>
+      </skills>
+    </employee>
+    <employee id="E005" department="開発部">
+      <name>高橋健</name>
+      <age>26</age>
+      <email>takahashi@example.com</email>
+      <salary currency="JPY">380000</salary>
+      <skills>
+        <skill level="advanced">React</skill>
+        <skill level="intermediate">Node.js</skill>
+      </skills>
+    </employee>
+  </employees>
+  
+  <departments>
+    <department code="DEV">
+      <name>開発部</name>
+      <budget>50000000</budget>
+      <headcount>25</headcount>
+    </department>
+    <department code="SALES">
+      <name>営業部</name>
+      <budget>30000000</budget>
+      <headcount>15</headcount>
+    </department>
+    <department code="HR">
+      <name>人事部</name>
+      <budget>15000000</budget>
+      <headcount>8</headcount>
+    </department>
+  </departments>
+</company>
+

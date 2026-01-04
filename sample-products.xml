@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <products category="電化製品">
+    <product id="P001" status="在庫あり">
+      <name>ノートパソコン ProBook X1</name>
+      <price>128000</price>
+      <stock>45</stock>
+      <manufacturer>Tech Corp</manufacturer>
+      <rating>4.5</rating>
+    </product>
+    <product id="P002" status="在庫あり">
+      <name>ワイヤレスマウス MX Master</name>
+      <price>8900</price>
+      <stock>120</stock>
+      <manufacturer>Peripheral Inc</manufacturer>
+      <rating>4.8</rating>
+    </product>
+    <product id="P003" status="在庫僅少">
+      <name>4Kモニター UltraView 27</name>
+      <price>45000</price>
+      <stock>8</stock>
+      <manufacturer>Display Tech</manufacturer>
+      <rating>4.6</rating>
+    </product>
+    <product id="P004" status="在庫あり">
+      <name>メカニカルキーボード TypeMaster</name>
+      <price>15000</price>
+      <stock>67</stock>
+      <manufacturer>Keyboard Pro</manufacturer>
+      <rating>4.7</rating>
+    </product>
+    <product id="P005" status="予約受付中">
+      <name>タブレット Tab Pro 12</name>
+      <price>89000</price>
+      <stock>0</stock>
+      <manufacturer>Tech Corp</manufacturer>
+      <rating>4.4</rating>
+    </product>
+  </products>
+  
+  <orders>
+    <order id="ORD001" date="2024-08-15" customer="山田商事">
+      <product_id>P001</product_id>
+      <quantity>3</quantity>
+      <total>384000</total>
+      <status>発送済み</status>
+    </order>
+    <order id="ORD002" date="2024-08-16" customer="佐藤株式会社">
+      <product_id>P002</product_id>
+      <quantity>10</quantity>
+      <total>89000</total>
+      <status>処理中</status>
+    </order>
+    <order id="ORD003" date="2024-08-16" customer="鈴木エンタープライズ">
+      <product_id>P003</product_id>
+      <quantity>5</quantity>
+      <total>225000</total>
+      <status>発送済み</status>
+    </order>
+  </orders>
+</catalog>
+
